@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="fontstyle" href="https://fonts.googleapis.com" />
+    <link rel="fontstyle" href="https://fonts.gstatic.com"/>
 
     <title>Everything about Steven</title>
     <div class="topimage">
@@ -13,6 +12,7 @@
   </head>
 
   <body>
+    <!--menu bar section-->
     <nav class="menu-bar">
       <div class="index">
         <br />
@@ -25,14 +25,15 @@
       </div>
     </nav>
 
+    <!--About ME section-->
     <section class="about">
       <header class="name">
         <img  src="../images/me.jpg" />
         <p><span>Steven Hur</span></p>
-        <h6>"future c++ developer"</h6>
+        <h6>"Optimistic c++ developer"</h6>
       </header>
       <br /><br />
-      <article class="main-introduction">
+      <article class="introduction">
         <p class="intro">
           Age: 29<br />
           Birthday: 1993.10.12<br>
@@ -47,30 +48,31 @@
           - enthusiastic programming student <br />
           - huge fan of Pokemon!<br><br>
           Hope you enjoy my website!<br><br>
-        <a href="declaration.html">Academic Declaration<br />
+        <a href="declaration.html">Academic Declaration</a><br />
         </p>
         <br />
         
       </article>
       <br /><br />
-      <footer class="sns-pictogram">
-        <a href="https://www.instagram.com/jwhur93/"
-          ><i class="fa-brands fa-instagram fa-4x"></i
-        ></a>
-      </footer>
     </section>
 
 
     <!--Education section-->
     <section class="education">
       <p class="major">
-        <span>McMaster University</span>&nbsp<span style="color: #2b3856"
-          ><br />Bachelor of Music</span
+        <span>McMaster University</span>&nbsp<span style="color: #1c55da"
+          ><br />Bachelor of Piano</span
         >&nbsp<span class="comments">major</span><span class="comments">(2014.09~0.18.06)</span>
       </p>
 
       <p class="major">
-        <span>Seneca College</span>&nbsp<span style="color: #2b3856"
+        <span>McMaster University</span>&nbsp<span style="color: #1c55da"
+          ><br />Bachelor of Voice</span
+        >&nbsp<span class="comments">minor</span><span class="comments">(2014.09~0.18.06)</span>
+      </p>
+
+      <p class="major">
+        <span>Seneca College</span>&nbsp<span style="color: #614209"
           ><br />
           Computer programming & Analysis</span
         >&nbsp<span class="comments">major</span><span class="comments">(2023.01~)</span>
@@ -108,8 +110,8 @@
 
     <!--Soldier section-->
     <section class="soldier">
-      <div class="contents1">
-        <p class="title">
+      <div>
+        <p>
           <span>106BN 3CO 3P <br />First squad</span>&nbsp<span class="year"
             ><br />2021.05~2022.11</span
           >
@@ -139,8 +141,8 @@
 
     <!--Musician Section-->
     <section class="musician">
-      <div class="contents2">
-        <p class="title">
+      <div>
+        <p>
           <span>Performance</span>&nbsp<span class="year"><br>2018.05~2021.01</p>
         <img src="../images/performance1.jpg">
         <img src="../images/performance2.jpg">
@@ -158,16 +160,16 @@
       <h1>Contact Me</h1>
     <form id="contactForm">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" required>
         
         <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" required>
         
         <label for="address">Address:</label>
-        <input type="text" id="address" name="address" required>
+        <input type="text" id="address" required>
         
         <label for="city">City:</label>
-        <input type="text" id="city" name="city" list="cities" required>
+        <input type="text" id="city" list="cities" required>
         <datalist id="cities">
             <option value="Toronto">
             <option value="Vancouver">
@@ -184,11 +186,11 @@
         </datalist>
         
         <label for="postalCode">Postal Code:</label>
-        <input type="text" id="postalCode" name="postalCode" pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d" required>
+        <input type="text" id="postalCode" 
+          pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d" required><br><br>
         
-        <label>What is this about?</label>
-        <input type="radio" id="question" name="topic" value="Question" required>
-        <label for="question">Question</label>
+        <label>Select one</label>
+        <!--must be filled-->
         <input type="radio" id="comment" name="topic" value="Comment" required>
         <label for="comment">Comment</label>
         <input type="radio" id="hiring" name="topic" value="Hiring" required>
@@ -196,14 +198,15 @@
         
         <div id="hourlyRateContainer">
             <label for="hourlyRate">Hourly Rate:</label>
-            <input type="number" id="hourlyRate" name="hourlyRate" step="0.01" min="0">
+            <!--increase by 0.01. prevent going into negative value-->
+            <input type="number" id="hourlyRate" step="0.01" min="0">
         </div>
         
         <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
+        <textarea id="message"></textarea>
 
         <label for="subscribe">Subscribe to Newsletter:</label>
-        <input type="checkbox" id="subscribe" name="subscribe">
+        <input type="checkbox" id="subscribe">
         
         <button class="submitButton" type="submit">Submit</button>
     </form>

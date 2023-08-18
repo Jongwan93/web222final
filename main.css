@@ -45,11 +45,16 @@ section {
   flex-direction: column;
   justify-content: center;
 }
+/* cursor on to increase scale */
+img:hover {
+  transform: scale(3);
+  align-items: center;
+}
 p {
   margin: 0;
 }
 
-/* about part*/
+/* about part */
 .about {
   background-color: rgb(233, 194, 200);
 }
@@ -64,7 +69,7 @@ p {
   font-weight: 900;
   font-family: "Oswald", sans-serif;
 }
-.main-introduction .intro {
+.introduction .intro {
   font-size: 1vw;
 }
 
@@ -107,7 +112,7 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-/*interest part*/
+/* interest part */
 .interests {
   background-color: rgb(227, 247, 181);
 }
@@ -164,12 +169,6 @@ img:hover {
   width: 8vw;
   height: 8vw;
   transition: all 0.3s ease-in-out;
-}
-
-/* cursor on to increase scale */
-img:hover {
-  transform: scale(3);
-  align-items: center;
 }
 
 .musician p {
