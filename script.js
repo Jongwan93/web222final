@@ -38,13 +38,3 @@ topicRadio.forEach((radio) => {
     }
   });
 });
-
-topicRadio.forEach((radio) => {
-  radio.addEventListener("change", () => {
-    if (radio.value === "Hiring") {
-      hourlyRateContainer.style.display = "block";
-    } else {
-      hourlyRateContainer.style.display = "none";
-    }
-  });
-});
