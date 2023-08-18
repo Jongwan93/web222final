@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>About</title>
+    <div class="topimage">
+    </div>
+  </head>
+
+  <body>
+    <nav class="menu-bar">
+      <div class="index">
+        <br />
+        <h3 class="click">ABOUT ME</h3>
+        <h3 class="click">EDUCATION</h3>
+        <h3 class="click">PICTURES</h3>
+        <h3 class="click">AS A SOLDIER</h3>
+        <h3 class="click">AS A MUSICIAN</h3>
+        <h3 class="click">CONTACT ME</h3>
+      </div>
+    </nav>
+
+    <section class="about">
+      <header class="name">
+        <img  src="../images/me.jpg" />
+        <p><span>Steven Hur</span></p>
+        <h6>"future c++ developer"</h6>
+      </header>
+      <br /><br />
+      <article class="main-introduction">
+        <p class="intro">
+          Age: 29<br />
+          Current Date: 2023.08.18 <br />
+          Course: WEB222<br />
+          Section: NAA<br />
+          Professor: Mark Meritt<br /><br>
+          Hello my name is Steven Hur and this website is about myself<br /><br />
+          I am: <br />
+          - reserve force of Republic of Korea Army<br />
+          - pianist, accompanist and singer<br />
+          - enthusiastic programming student <br />
+          - huge fan of Pokemon!<br><br>
+          Hope you enjoy my website!<br><br>
+        <a href="declaration.html">Academic Declaration<br />
+        </p>
+        <br />
+        
+      </article>
+      <br /><br />
+      <footer class="sns-pictogram">
+        <a href="https://www.instagram.com/jwhur93/"
+          ><i class="fa-brands fa-instagram fa-4x"></i
+        ></a>
+      </footer>
+    </section>
+
+
+    <!--Education section-->
+    <section class="education">
+      <p class="major">
+        <span>McMaster University</span>&nbsp<span style="color: #2b3856"
+          ><br />Bachelor of Music</span
+        >&nbsp<span class="comments">major</span><span class="comments">(2014.09~0.18.06)</span>
+      </p>
+
+      <p class="major">
+        <span>Seneca College</span>&nbsp<span style="color: #2b3856"
+          ><br />
+          Computer programming & Analysis</span
+        >&nbsp<span class="comments">major</span><span class="comments">(2023.01~)</span>
+      </p>
+    </section>
+
+    <section class="interests">
+      <header>
+        <p style="margin: 10px" class="education-text">
+          <span>Times Full of Happiness</span>
+        </p>
+        <p></p>
+      </header>
+
+      <article>
+        <div class="education-img">
+          <img src="../images/piano1.jpg" />
+          <img src="../images/piano2.JPG" />
+          <img src="../images/piano3.JPG" />
+          <img src="../images/piano4.jpg" />
+          <img src="../images/code1.jpg" />
+          <img src="../images/code2.jpg" />
+        </div>
+        <p class="comment">
+          These are some pictures of me during the education time<br />
+          picture #1 : Bedford competition performance. I got the first place!<br />
+          picture #2 : Picture of my piano<br />
+          picture #3 : Recording Korean nation anthem for YouTube<br />
+          picture #4 : His name is Bruce. He loves to sit on the piano bench.<br />
+          picture #5 : First Github experience was disastrous<br />
+          picture #6 : SFT group project was a pure nightmare!<br />
+        </p>
+      </article>
+    </section>
+
+    <!--Soldier section-->
+    <section class="soldier">
+      <div class="contents1">
+        <p class="title">
+          <span>106BN 3CO 3P <br />First squad</span>&nbsp<span class="year"
+            ><br />2021.05~2022.11</span
+          >
+        </p>
+        <div class="soldier-img">
+          <img src="../images/army1.jpg" />
+          <img src="../images/army2.jpg" />
+          <img src="../images/army3.jpg" />
+          <img src="../images/army4.jpg" />
+          <img src="../images/army5.jpg" />
+          <img src="../images/army6.jpg" />
+          <img src="../images/army7.jpg" />
+          <img src="../images/army8.jpg" />
+        </div>
+      </div>
+      <p class="comment">
+        picture #1 : Day-off with my parents.<br />
+        picture #2 : Squad-leader sgt. Lee thrown to the air<br />
+        picture #3 : 3CO gather up!<br />
+        picture #4 : Good bye Comrades. You will be remembered<br />
+        picture #5 : My K200A1 AFV. I was AFV operator/mechanic<br />
+        picture #6 : Rambo moment? <br />
+        picture #7 : Armored division on duty<br />
+        picture #8 : Yes, that is a tank. K1A1.<br />
+      </p>
+    </section>
+
+    <!--Musician Section-->
+    <section class="musician">
+      <div class="contents2">
+        <p class="title">
+          <span>Performance</span>&nbsp<span class="year"><br>2018.05~2021.01</p>
+        <img src="../images/performance1.jpg">
+        <img src="../images/performance2.jpg">
+        <img src="../images/performance3.jpg">
+      </div>
+      <p class="comment">
+        picture #1 : Performance at Gala concert. I can still feel the nerves<br />
+        picture #2 : One of my favourite picture!<br />
+        picture #3 : Working as a piano teacher.<br />
+      </p>
+    </section>
+
+    <!--Contact Me section-->
+    <section class="contact">
+      <h1>Contact Me</h1>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+        
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" list="cities" required>
+        <datalist id="cities">
+            <option value="Toronto">
+            <option value="Vancouver">
+            <option value="Montreal">
+            <option value="Quebec">
+            <option value="Manitoba">
+            <option value="Alberta">
+            <option value="New Brunswick">
+            <option value="Nova Scotia">
+            <option value="British Columbia">
+            <option value="Saskatchewan">
+            <option value="Newfoundland">
+            <option value="PEI">
+        </datalist>
+        
+        <label for="postalCode">Postal Code:</label>
+        <input type="text" id="postalCode" name="postalCode" pattern="[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d" required>
+        
+        <label>What is this about?</label>
+        <input type="radio" id="question" name="topic" value="Question" required>
+        <label for="question">Question</label>
+        <input type="radio" id="comment" name="topic" value="Comment" required>
+        <label for="comment">Comment</label>
+        <input type="radio" id="hiring" name="topic" value="Hiring" required>
+        <label for="hiring">Hiring</label>
+        
+        <div id="hourlyRateContainer">
+            <label for="hourlyRate">Hourly Rate:</label>
+            <input type="number" id="hourlyRate" name="hourlyRate" step="0.01" min="0">
+        </div>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <label for="subscribe">Subscribe to Newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        
+        <button class="submitButton" type="submit">Submit</button>
+    </form>
+    </section>
+
+    <!-- js file connection -->
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

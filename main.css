@@ -1,0 +1,219 @@
+.img {
+  justify-content: center;
+}
+
+.topimage {
+  text-align: center;
+}
+
+.menu-bar {
+  position: fixed;
+  background-color: #c79de9;
+  display: block;
+  width: 20vh;
+  display: flex;
+  justify-content: center;
+  border-radius: 5%;
+}
+
+.index {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+/* content list */
+.index h3 {
+  color: rgb(34, 77, 133);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1vw;
+}
+.index h3:hover {
+  font-size: 1.1em;
+  opacity: 1;
+  text-shadow: 0.7px 0.7px 0.7px #4f18cf;
+}
+/* cursor on */
+section {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 80vw;
+  margin-left: 10vw;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  margin: 0;
+}
+
+/* about part*/
+.about {
+  background-color: rgb(233, 194, 200);
+}
+.about .name img {
+  width: 10%;
+}
+.about h1 {
+  width: 50vw;
+}
+.about .name {
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Oswald", sans-serif;
+}
+.main-introduction .intro {
+  font-size: 1vw;
+}
+
+.intro {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 1vw;
+}
+
+/* education part */
+.education {
+  background-color: #c6dbee;
+}
+.major {
+  font-size: 4vw;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: "Oswald", sans-serif;
+}
+
+.education .comments {
+  font-size: 1vw;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.education-text {
+  font-size: 4vw;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+}
+
+.education-img {
+  margin-bottom: 1vw;
+}
+.education-img img {
+  width: 12vw;
+  height: 13vw;
+  transition: all 0.3s ease-in-out;
+}
+
+/*interest part*/
+.interests {
+  background-color: rgb(227, 247, 181);
+}
+.interests .comment {
+  font-size: 1vw;
+  font-style: italic;
+}
+
+/* soldier part */
+
+.soldier {
+  background-color: bisque;
+}
+.soldier img {
+  margin-right: 1vw;
+  margin-top: 1vw;
+  border: 0.3vw;
+  border-style: solid;
+  border-color: lightgray;
+  border-image-outset: 1vw;
+  width: 8vw;
+  height: 8vw;
+  transition: all 0.3s ease-in-out;
+}
+
+/* cursor on to increase scale */
+img:hover {
+  transform: scale(3);
+  align-items: center;
+}
+
+.soldier p {
+  font-size: 3vw;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+}
+
+.soldier .comment {
+  font-size: 1vw;
+  font-style: italic;
+}
+
+/* musician part */
+.musician {
+  background-color: #b7cde2;
+}
+.musician img {
+  margin-right: 1vw;
+  margin-top: 1vw;
+  border: 0.3vw;
+  border-style: solid;
+  border-color: lightgray;
+  border-image-outset: 1vw;
+  width: 8vw;
+  height: 8vw;
+  transition: all 0.3s ease-in-out;
+}
+
+/* cursor on to increase scale */
+img:hover {
+  transform: scale(3);
+  align-items: center;
+}
+
+.musician p {
+  font-size: 3vw;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+}
+
+.musician .comment {
+  font-size: 1vw;
+  font-style: italic;
+}
+
+/*contact part*/
+.contact {
+  background-color: rgb(212, 241, 215);
+}
+#contactForm {
+  font-size: 1vw;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1vw;
+}
+input,
+textarea {
+  width: 20vw;
+  padding: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+#hourlyRateContainer {
+  margin-left: 20vw;
+  width: 40vw;
+  display: none;
+}
+
+.submitButton {
+  width: 5vw;
+}
+
+/* time */
+.year {
+  font-family: "Oswald", sans-serif;
+  font-size: 2vw;
+  opacity: 0.5;
+}
