@@ -107,9 +107,13 @@ p {
   margin-bottom: 1vw;
 }
 .education-img img {
-  width: 12vw;
-  height: 13vw;
+  width: 8vw;
+  height: 7vw;
   transition: all 0.3s ease-in-out;
+  border: 0.3vw;
+  border-style: solid;
+  border-color: lightgray;
+  border-image-outset: 1vw;
 }
 
 /* interest part */
